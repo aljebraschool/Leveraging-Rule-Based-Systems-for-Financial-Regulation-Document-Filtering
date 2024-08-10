@@ -90,12 +90,22 @@ For the Simple Method:
 
 These metrics were chosen because they provide a comprehensive view of the system's performance, balancing its ability to correctly identify relevant documents (recall) with its ability to avoid false positives (precision).
 
-The Robust Method uses a scoring system, with documents scoring above 50 considered relevant. The distribution of scores for relevant documents:
+The Robust Method uses a scoring system, with documents scoring above 50 considered relevant.
+- Accuracy: 0.9058
+- Precision: 0.8864
+- Recall: 0.0207
+- F1 Score: 0.0404
+- True Positive: 17767
+- True Negative: 39
+- False Positive: 5
+- False Negative: 1847 
+
+The distribution of scores for relevant documents:
 - Mean: 54.06
 - Median: 53.95
 - Mode: 54.58
 
-While direct comparison metrics aren't available for the Robust Method, its scoring distribution suggests a more nuanced classification approach.
+The second approach proves to be very accurate compare to the first simple approach
 
 ## Limitations
 
