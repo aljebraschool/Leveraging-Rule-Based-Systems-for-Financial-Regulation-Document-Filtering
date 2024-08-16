@@ -17,6 +17,7 @@ This project develops an intelligent document filtering system for financial reg
 - **Data Manipulation:** pandas, numpy
 - **Data Visualization:** matplotlib, seaborn
 - **Machine Learning:** scikit-learn
+- **Code testing:** pytest
 
 To set up the project environment:
 
@@ -83,14 +84,11 @@ We chose the following metrics to evaluate our system:
 - F1 Score: Harmonic mean of precision and recall, providing a balanced measure of the model's performance
 
 For the Simple Method:
-- Accuracy: 0.5120
-- Precision: 0.1055
-- Recall: 0.5461
-- F1 Score: 0.1768
-- True Positive: 9035
-- True Negative: 1030
-- False Positive: 8737
-- False Negative: 856
+- Accuracy: 0.1016
+- Precision: 0.1016
+- Recall: 1.0000
+- F1 Score: 0.1844
+
 
 These metrics were chosen because they provide a comprehensive view of the system's performance, balancing its ability to correctly identify relevant documents (recall) with its ability to avoid false positives (precision).
 
